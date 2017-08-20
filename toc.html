@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="el">
+
+<head>
+	<meta charset="utf-8">
+	<title>Table of Contents
+	</title>
+
+	<script src="toc-h2.js"></script>
+	<script src="ajax_functions.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<script>
+		var xhttp = getAjaxRequest();
+		loadJSONDoc(xhttp, 'content.json', function(data){
+			console.log(data);
+		});
+	</script>
+</head>
+
+<body>
+
+	<h1>ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ</h1>
+	<h2 id="id-1">Σχολές & Τμήματα</h2>
+	<h3 id="id-1-1">Σχολή Οικονομικών Επιστημών</h3>
+	<h4 id="id-1-1-1">Τμήμα Διεθνών & Ευρωπαϊκών Οικονομικών Σπουδών</h4>
+	<p id="p1"></p>
+	<h4 id="id-1-1-2">Τμήμα Οικονομικής Επιστήμης</h4>
+	<p id="p2"></p>
+	<h3 id="id-1-2">Σχολή Διοίκησης Επιχειρήσεων</h3>
+	<h4 id="id-1-2-1">Τμήμα Διοικητικής Επιστήμης και Τεχνολογίας</h4>
+	<p id="p3"></p>
+	<h4 id="id-1-2-2">Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων</h4>
+	<p id="p4"></p>
+	<h4 id="id-1-2-3">Τμήμα Λογιστικής και Χρηματοοικονομικής</h4>
+	<p id="p5"></p>
+	<h4 id="id-1-2-4">Τμήμα Μάρκετινγκ και Επικοινωνίας</h4>
+	<p id="p6"></p>
+	<h3 id="id-1-3">Σχολή Επιστημών και Τεχνολογίας της Πληροφορίας</h3>
+	<h4 id="id-1-3-1">Τμήμα Πληροφορικής</h4>
+	<p id="p7"></p>
+	<h4 id="id-1-3-2">Τμήμα Στατιστικής</h4>
+	<p id="p8"></p>
+
+
+</body>
+
+</html>
